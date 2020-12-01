@@ -1,0 +1,26 @@
+{
+  "name": "f12blog",
+  "version": "1.0.0",
+  "description": "Blog for forever2012",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "hexo generate"
+  },
+  "hexo": {
+    "version": "5.0.0"
+  },
+  "dependencies": {
+    "hexo": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charburgx/f12blog.git"
+  },
+  "author": "f12",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charburgx/f12blog/issues"
+  },
+  "homepage": "https://github.com/charburgx/f12blog#readme"
+}
