@@ -321,7 +321,7 @@ body .h1 {
   display: block;
   margin-top: 3rem;
   margin-bottom: 1rem;
-  color: #2bbc8a;
+  color: #d3d16c;
   letter-spacing: 0.01em;
   font-weight: 700;
   font-style: normal;
@@ -599,11 +599,9 @@ body {
   border-radius: 5px;
   background-size: 50px 50px;
   background-repeat: no-repeat;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
 }
 #header #nav {
-  color: #2bbc8a;
+  color: #d3d16c;
   letter-spacing: 0.01em;
   font-weight: 200;
   font-style: normal;
@@ -616,11 +614,11 @@ body {
   line-height: 15px;
 }
 #header #nav ul a {
-  margin-right: 15px;
-  color: #2bbc8a;
+  margin-right: 10px;
+  color: #d3d16c;
 }
 #header #nav ul a:hover {
-  background-image: linear-gradient(transparent, transparent 5px, #2bbc8a 5px, #2bbc8a);
+  background-image: linear-gradient(transparent, transparent 5px, #d3d16c 5px, #d3d16c);
   background-position: bottom;
   background-size: 100% 6px;
   background-repeat: repeat-x;
@@ -629,7 +627,7 @@ body {
   display: inline-block;
   margin-right: 15px;
   border-right: 1px dotted;
-  border-color: #2bbc8a;
+  border-color: #d3d16c;
   vertical-align: middle;
 }
 #header #nav ul .icon {
@@ -641,10 +639,6 @@ body {
 }
 #header #nav ul li:last-child a {
   margin-right: 0;
-}
-#header:hover #logo {
-  filter: none;
-  -webkit-filter: none;
 }
 @media screen and (max-width: 480px) {
   #header #title {
@@ -720,7 +714,7 @@ body {
   margin-left: 15px;
 }
 #header-post #menu-icon:hover {
-  color: #2bbc8a;
+  color: #d3d16c;
 }
 #header-post #menu-icon-tablet {
   float: right;
@@ -728,7 +722,7 @@ body {
   margin-left: 15px;
 }
 #header-post #menu-icon-tablet:hover {
-  color: #2bbc8a;
+  color: #d3d16c;
 }
 #header-post #top-icon-tablet {
   position: fixed;
@@ -738,17 +732,17 @@ body {
   margin-left: 15px;
 }
 #header-post #top-icon-tablet:hover {
-  color: #2bbc8a;
+  color: #d3d16c;
 }
 #header-post .active {
-  color: #2bbc8a;
+  color: #d3d16c;
 }
 #header-post #menu {
   visibility: hidden;
   margin-right: 2rem;
 }
 #header-post #nav {
-  color: #2bbc8a;
+  color: #d3d16c;
   letter-spacing: 0.01em;
   font-weight: 200;
   font-style: normal;
@@ -759,16 +753,16 @@ body {
 }
 #header-post #nav ul a {
   margin-right: 15px;
-  color: #2bbc8a;
+  color: #d3d16c;
 }
 #header-post #nav ul a:hover {
-  background-image: linear-gradient(transparent, transparent 5px, #2bbc8a 5px, #2bbc8a);
+  background-image: linear-gradient(transparent, transparent 5px, #d3d16c 5px, #d3d16c);
   background-position: bottom;
   background-size: 100% 6px;
   background-repeat: repeat-x;
 }
 #header-post #nav ul li {
-  border-right: 1px dotted #2bbc8a;
+  border-right: 1px dotted #d3d16c;
 }
 #header-post #nav ul li:last-child {
   margin-right: 0;
@@ -822,7 +816,7 @@ body {
   font-size: 0.8rem;
 }
 #header-post #toc .toc-level-2:before {
-  color: #2bbc8a;
+  color: #d3d16c;
   content: "#";
 }
 #header-post #toc .toc-level-3 {
@@ -920,11 +914,11 @@ body {
   text-align: center;
 }
 #footer-post #nav-footer a {
-  color: #2bbc8a;
+  color: #d3d16c;
   font-size: 1em;
 }
 #footer-post #nav-footer a:hover {
-  background-image: linear-gradient(transparent, transparent 5px, #2bbc8a 5px, #2bbc8a);
+  background-image: linear-gradient(transparent, transparent 5px, #d3d16c 5px, #d3d16c);
   background-position: bottom;
   background-size: 100% 6px;
   background-repeat: repeat-x;
@@ -955,7 +949,7 @@ body {
 #footer-post #actions-footer a {
   display: inline-block;
   padding-left: 1rem;
-  color: #2bbc8a;
+  color: #d3d16c;
 }
 #footer-post #share-footer {
   padding-right: 1rem;
@@ -1002,7 +996,7 @@ body {
   font-size: 0.8rem;
 }
 #footer-post #toc-footer .toc-level-2:before {
-  color: #2bbc8a;
+  color: #d3d16c;
   content: "#";
 }
 #footer-post #toc-footer .toc-level-3 {
@@ -1088,7 +1082,7 @@ article .content h2:before {
   position: absolute;
   top: -4px;
   left: -1rem;
-  color: #2bbc8a;
+  color: #d3d16c;
   content: "#";
   font-weight: bold;
   font-size: 1.2rem;
@@ -1329,7 +1323,7 @@ article .content .caption {
   -moz-border-radius: 5px;
 }
 .search-input:focus {
-  border: solid 1px #2bbc8a;
+  border: solid 1px #d3d16c;
 }
 #search-result ul.search-result-list {
   padding: 0;
@@ -1617,7 +1611,7 @@ code {
   transition: opacity 0.2s ease-in;
 }
 .highlight .btn-copy:hover {
-  color: #2bbc8a;
+  color: #d3d16c;
 }
 .highlight pre {
   margin: 0;
