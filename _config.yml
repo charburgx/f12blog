@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: forever2012
+subtitle: '{ }'
 description: ''
 keywords:
-author: John Doe
+author: char
 language: en
 timezone: ''
 
@@ -95,13 +95,31 @@ include:
 exclude:
 ignore:
 
+theme_config:
+  colorscheme: f12
+  logo:
+    enabled: true
+    width: 50
+    height: 50
+    url: /images/f12_2000px.png
+    gravatar: false
+    grayout: false
+  nav:
+    home: /
+    about: /about/
+    articles: /archives/
+  social_links:
+  favicon:
+  copyright:
+    start_year: 2020
+    end_year:
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: cactus
 
-theme_config:
-  colorscheme: dark
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
