@@ -7,7 +7,7 @@ title: forever2012
 subtitle: '{ }'
 description: ''
 keywords:
-author: char
+author: 'Max Stoumen'
 language: en
 timezone: ''
 
@@ -111,14 +111,14 @@ theme_config:
   social_links:
   favicon:
   copyright:
-    start_year: 2020
+    start_year: 2021
     end_year:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: cactus
-
+plugins: [hexo-tag-htmltag, hexo-tag-html5, hexo-generator-archive, hexo-generator-category, hexo-generator-index, hexo-generator-tag, hexo-renderer-ejs, hexo-renderer-marked, hexo-renderer-stylus, hexo-server ]
 
 
 # Deployment
