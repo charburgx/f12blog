@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Partial Derivatives    Kronecker Product    Cardiod    Mangos    This video is an animation of P4, Round 1 of USAMTS 2019-20. At the time of writing this, I am working on a video of this problem, and">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Some Animations">
+<meta property="og:url" content="http://f2012.co/2021/04/14/some-animations/index.html">
+<meta property="og:site_name" content="forever2012">
+<meta property="og:description" content="Partial Derivatives    Kronecker Product    Cardiod    Mangos    This video is an animation of P4, Round 1 of USAMTS 2019-20. At the time of writing this, I am working on a video of this problem, and">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2021-04-14T17:25:20.000Z">
+<meta property="article:modified_time" content="2021-04-15T20:34:13.976Z">
+<meta property="article:author" content="Max Stoumen">
+<meta name="twitter:card" content="summary">
+    
+    
+    <!-- title -->
+    <title>Some Animations</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+      
+<link rel="stylesheet" href="/css/rtl.css">
+
+    
+    <!-- rss -->
+    
+    
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://f2012.co/2021/04/14/some-animations/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://f2012.co/2021/04/14/some-animations/&text=Some Animations"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://f2012.co/2021/04/14/some-animations/&title=Some Animations"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://f2012.co/2021/04/14/some-animations/&is_video=false&description=Some Animations"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Some Animations&body=Check out this article: http://f2012.co/2021/04/14/some-animations/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://f2012.co/2021/04/14/some-animations/&title=Some Animations"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://f2012.co/2021/04/14/some-animations/&title=Some Animations"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://f2012.co/2021/04/14/some-animations/&title=Some Animations"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://f2012.co/2021/04/14/some-animations/&title=Some Animations"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://f2012.co/2021/04/14/some-animations/&name=Some Animations&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://f2012.co/2021/04/14/some-animations/&t=Some Animations"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Partial-Derivatives"><span class="toc-number">1.</span> <span class="toc-text">Partial Derivatives</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Kronecker-Product"><span class="toc-number">2.</span> <span class="toc-text">Kronecker Product</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Cardiod"><span class="toc-number">3.</span> <span class="toc-text">Cardiod</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Mangos"><span class="toc-number">4.</span> <span class="toc-text">Mangos</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Beautiful-Math-Ahead"><span class="toc-number">5.</span> <span class="toc-text">Beautiful Math Ahead</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        Some Animations
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Max Stoumen</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2021-04-14T17:25:20.000Z" itemprop="datePublished">2021-04-14</time>
+        
+      
+    </div>
+
+
+      
+
+      
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <h2 id="Partial-Derivatives"><a href="#Partial-Derivatives" class="headerlink" title="Partial Derivatives"></a>Partial Derivatives</h2><video width="100%" height="250px" controls autoplay muted loop><source src="/asset_path/Partial.webm" type="video/webm"> </source> </video>
+
+<h2 id="Kronecker-Product"><a href="#Kronecker-Product" class="headerlink" title="Kronecker Product"></a>Kronecker Product</h2><video width="100%" height="250px" controls autoplay muted loop><source src="/asset_path/Tensor.webm" type="video/webm"> </source> </video>
+
+<h2 id="Cardiod"><a href="#Cardiod" class="headerlink" title="Cardiod"></a>Cardiod</h2><video width="100%" height="250px" controls autoplay muted loop><source src="/asset_path/Cardiod.webm" type="video/webm"> </source> </video>
+
+<h2 id="Mangos"><a href="#Mangos" class="headerlink" title="Mangos"></a>Mangos</h2><video width="100%" height="250px" controls autoplay muted loop><source src="/asset_path/Mangos.webm" type="video/webm"> </source> </video>
+
+<p>This video is an animation of <a target="_blank" rel="noopener" href="https://usamts.org/Tests/Problems_31_1.pdf">P4, Round 1</a> of USAMTS 2019-20. At the time of writing this, I am working on a video of this problem, and this is one of the scenes. </p>
+<h2 id="Beautiful-Math-Ahead"><a href="#Beautiful-Math-Ahead" class="headerlink" title="Beautiful Math Ahead"></a>Beautiful Math Ahead</h2><video width="100%" height="250px" controls autoplay muted loop><source src="/asset_path/BeautifulMathAhead.webm" type="video/webm"> </source> </video>
+
+<p>This is another scene from the aforementioned video.</p>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Partial-Derivatives"><span class="toc-number">1.</span> <span class="toc-text">Partial Derivatives</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Kronecker-Product"><span class="toc-number">2.</span> <span class="toc-text">Kronecker Product</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Cardiod"><span class="toc-number">3.</span> <span class="toc-text">Cardiod</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Mangos"><span class="toc-number">4.</span> <span class="toc-text">Mangos</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Beautiful-Math-Ahead"><span class="toc-number">5.</span> <span class="toc-text">Beautiful Math Ahead</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://f2012.co/2021/04/14/some-animations/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://f2012.co/2021/04/14/some-animations/&text=Some Animations"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://f2012.co/2021/04/14/some-animations/&title=Some Animations"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://f2012.co/2021/04/14/some-animations/&is_video=false&description=Some Animations"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Some Animations&body=Check out this article: http://f2012.co/2021/04/14/some-animations/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://f2012.co/2021/04/14/some-animations/&title=Some Animations"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://f2012.co/2021/04/14/some-animations/&title=Some Animations"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://f2012.co/2021/04/14/some-animations/&title=Some Animations"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://f2012.co/2021/04/14/some-animations/&title=Some Animations"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://f2012.co/2021/04/14/some-animations/&name=Some Animations&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://f2012.co/2021/04/14/some-animations/&t=Some Animations"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+     
+    
+    
+    2021
+    Max Stoumen
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+
+    <!-- jquery -->
+
+<script src="/lib/jquery/jquery.min.js"></script>
+
+
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+
+<!-- clipboard -->
+
+  
+<script src="/lib/clipboard/clipboard.min.js"></script>
+
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Umami Analytics -->
+
+<!-- Disqus Comments -->
+
+
+</body>
+</html>
