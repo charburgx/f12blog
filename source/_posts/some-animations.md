@@ -26,3 +26,9 @@ This video is an animation of [P4, Round 1](https://usamts.org/Tests/Problems_31
 {% htmlTag video width="100%" height="250px" controls autoplay muted loop %} {% htmlTag source src="/asset_path/BeautifulMathAhead.webm" type="video/webm" %} {% endhtmlTag %} {% endhtmlTag %}
 
 This is another scene from the aforementioned video.
+
+## Competition Flow
+
+{% htmlTag video width="100%" height="250px" controls autoplay muted loop %} {% htmlTag source src="/asset_path/CompFlow.webm" type="video/webm" %} {% endhtmlTag %} {% endhtmlTag %}
+
+Another scene from the aforementioned video.
