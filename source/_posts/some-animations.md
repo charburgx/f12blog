@@ -3,6 +3,7 @@ title: Some Animations
 date: 2021-04-14 17:25:20
 ---
 
+Source code for these animations can be found [here](https://github.com/charburgx/manim-projects).
 ## Partial Derivatives
 
 {% htmlTag video width="100%" height="250px" controls autoplay muted loop %} {% htmlTag source src="/asset_path/Partial.webm" type="video/webm" %} {% endhtmlTag %} {% endhtmlTag %}
